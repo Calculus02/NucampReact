@@ -1,0 +1,7 @@
+{
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "onchange": "^7.0.0",
+    "parallelshell": "3.0.1"
+  }
+}
