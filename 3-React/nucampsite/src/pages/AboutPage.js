@@ -1,6 +1,5 @@
 import { Col, Row, Container, Card, CardBody, CardHeader, } from 'reactstrap';
 import SubHeader from '../components/SubHeader';
-import Footer from '../components/Footer';
 import PartnersList from '../features/partners/PartnersList';
 
 function AboutPage () {
@@ -42,18 +41,21 @@ function AboutPage () {
                 </Col>
                 <Col>
                     <Card className='bg-light mt-3'>
-                        <CardBody className='blockquote'>
-                            <p>I will not follow where the path may lead, but I
+                        <CardBody>
+                            <blockquote className='blockquote'>
+                                <p>
+                                    I will not follow where the path may lead, but I
                                     will go where there is no path, and I will leave
                                     a trail.
-                            </p>
-                            <Footer className='blockquote-footer'>
+                                </p>
+                                <footer className='blockquote-footer'>
                                 Muriel Strode,{' '}
                                     <cite title='Source Title'>
                                         "Wind-Wafted Wild Flowers" - The Open Court,
                                         1903
                                     </cite>
-                            </Footer>
+                                </footer>
+                            </blockquote>
                         </CardBody>
                     </Card>
                 </Col>
