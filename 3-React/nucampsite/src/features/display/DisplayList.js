@@ -10,7 +10,7 @@ const DisplayList = () => {
     const items = useSelector((state) => [
         selectFeaturedCampsite(state),
         selectFeaturedPromotion(state),
-        selectFeaturedPartner(state)
+        selectFeaturedPartners(state)
     ]);
     console.log('display items:', items);
 
