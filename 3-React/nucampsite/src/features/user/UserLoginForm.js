@@ -62,8 +62,8 @@ const UserLoginForm = () => {
                         username: '',
                         password: ''
                     }}
-                    onSubmit={{handleLogin}}
-                    validate={{validateUserLoginForm}}
+                    onSubmit={handleLogin}
+                    validate={validateUserLoginForm}
                     >
                         <Form>
                             <FormGroup>
